@@ -3,4 +3,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  root "hello#index" # "hello"はコントローラ名、"index"はそのコントローラのアクション名です。
+
+  
 end
